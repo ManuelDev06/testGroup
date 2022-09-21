@@ -1,4 +1,5 @@
 import React from 'react'
+import '../theme/Label.css'
 
 const Label = (text,isLabel) => {
   return (
