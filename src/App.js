@@ -10,7 +10,10 @@ function App() {
     <div>
      <Input/>
      <Button/>
-     <Label/>
+     <Label
+        text="hola"
+        isLabel={false}
+     />
     </div>
   );
 }

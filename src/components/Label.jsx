@@ -1,9 +1,14 @@
 import React from 'react'
 import '../theme/Label.css'
 
-const Label = (text,isLabel) => {
+const Label = ({text="",isLabel}) => {
   return (
-    <div>Label</div>
+    <div>
+      {isLabel
+        ?<label>{text}</label>
+        :<h1>{text}</h1>
+      }
+    </div>
   )
 }
 
