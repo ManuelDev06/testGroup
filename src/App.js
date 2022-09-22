@@ -8,10 +8,14 @@ function App() {
   return (
     <div>
      <Input/>
-     <Button/>
+     <Button text="Click me" onClick={handlerClick}/>
      <Label/>
     </div>
   );
 }
 
 export default App;
+
+function handlerClick(){
+  alert('Hello world')
+}
