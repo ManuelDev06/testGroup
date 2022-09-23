@@ -1,11 +1,12 @@
 import React from 'react'
 import '../theme/Button.css'
 
-const Button = (text, onClick) => {
+const Button = ({text, onClick}) => {
     
   return (
-    <div>Button</div>
+    <button className='button' onClick={onClick}>{text}</button>
   )
 }
 
 export default Button
+
