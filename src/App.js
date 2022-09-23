@@ -9,8 +9,11 @@ function App() {
   return (
     <div>
      <Input/>
+     <Label
+        text="hola"
+        isLabel={false}
+     />
      <Button text="Click me" onClick={handlerClick}/>
-     <Label/>
     </div>
   );
 }
